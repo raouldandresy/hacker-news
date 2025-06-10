@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+Ecco un esempio di README dettagliato per il progetto [raouldandresy/hacker-news](https://github.com/raouldandresy/hacker-news), strutturato secondo le migliori pratiche di documentazione open source:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+# Hacker News Reader
 
-1. Install dependencies
+Un'applicazione mobile per esplorare le storie, i commenti e gli utenti di Hacker News, sviluppata con Expo e React Native.
+
+## 🚀 Installazione e avvio
+
+### Prerequisiti
+
+* [Node.js](https://nodejs.org/) ≥ 18.x
+* [npm](https://www.npmjs.com/) ≥ 9.x
+* [Expo CLI](https://docs.expo.dev/get-started/installation/) (opzionale, ma consigliato per un'esperienza ottimale)
+
+### Passaggi
+
+1. **Clona il repository:**
+
+   ```bash
+   git clone https://github.com/raouldandresy/hacker-news.git
+   cd hacker-news
+   ```
+
+2. **Installa le dipendenze:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Avvia l'app in modalità sviluppo:**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   Questo comando aprirà una finestra nel tuo browser con un QR code. Scansiona il codice con l'app Expo Go sul tuo dispositivo mobile per visualizzare l'app in tempo reale.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Avvio su emulatori
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Per avviare l'app su un emulatore Android o iOS:
 
-## Get a fresh project
+* **Android:**
 
-When you're ready, run:
+  ```bash
+  npx expo start --android
+  ```
 
-```bash
-npm run reset-project
-```
+* **iOS (solo su macOS):**
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+  ```bash
+  npx expo start --ios
+  ```
 
-## Learn more
+## 🧠 Scelte tecniche
 
-To learn more about developing your project with Expo, look at the following resources:
+* **Expo & React Native:** Per sviluppare un'app mobile multipiattaforma con un ciclo di sviluppo rapido.
+* **React Navigation:** Per gestire la navigazione tra le schermate in modo dichiarativo.
+* **Redux Toolkit:** Per la gestione centralizzata dello stato dell'applicazione.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## ⚠️ Note e limitazioni
 
-## Join the community
+* **Prestazioni:** L'app è progettata per dispositivi mobili moderni. Su dispositivi più datati, potrebbero verificarsi rallentamenti.
 
-Join our community of developers creating universal apps.
+## 📄 Licenza
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Questo progetto è concesso in licenza sotto la [MIT License](https://opensource.org/licenses/MIT).

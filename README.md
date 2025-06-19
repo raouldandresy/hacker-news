@@ -1,7 +1,3 @@
-Ecco un esempio di README dettagliato per il progetto [raouldandresy/hacker-news](https://github.com/raouldandresy/hacker-news), strutturato secondo le migliori pratiche di documentazione open source:
-
----
-
 # Hacker News Reader
 
 Un'applicazione mobile per esplorare le storie, i commenti e gli utenti di Hacker News, sviluppata con Expo e React Native.
